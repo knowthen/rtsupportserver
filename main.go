@@ -8,11 +8,6 @@ import (
 	"time"
 )
 
-type Message struct {
-	Name string      `json:"name"`
-	Data interface{} `json:"data"`
-}
-
 type Channel struct {
 	Id   string `json:"id"`
 	Name string `json:"name"`
