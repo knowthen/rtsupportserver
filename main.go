@@ -1,11 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/mitchellh/mapstructure"
 	"net/http"
-	"time"
 )
 
 type Channel struct {
